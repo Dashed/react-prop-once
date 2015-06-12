@@ -1,0 +1,33 @@
+{
+  "name": "react-prop-once",
+  "version": "0.0.0",
+  "description": "Higher-order component to cache props once on initial mount, and propagate them on every other render",
+  "main": "modules/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "build": "./node_modules/.bin/babel src --out-dir modules",
+    "prepublish": "npm run build"
+  },
+  "author": {
+    "name": "Alberto Leal",
+    "email": "mailforalberto@gmail.com",
+    "url": "github.com/Dashed"
+  },
+  "repository": "dashed/react-prop-once",
+  "license": "MIT",
+  "files": [
+    "modules"
+  ],
+  "keywords": [
+    "react",
+    "once",
+    "cache",
+    "props"
+  ],
+  "peerDependencies": {
+    "react": ">=0.12.0"
+  },
+  "devDependencies": {
+    "babel": "^5.5.6"
+  }
+}
