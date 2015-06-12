@@ -5,7 +5,7 @@
   "main": "modules/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
-    "build": "./node_modules/.bin/babel src --out-dir modules",
+    "build": "./scripts/build.sh",
     "prepublish": "npm run build"
   },
   "author": {
