@@ -1,6 +1,6 @@
 {
   "name": "react-prop-once",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Higher-order component to cache props once on initial mount, and propagate them on every other render",
   "main": "modules/index.js",
   "scripts": {
